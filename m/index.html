@@ -12,10 +12,10 @@
       console.log(location.href)
       if (isMobile()) {
         console.log('移动端');
-        location.href = location.origin+'/m'
       } else {
         console.log('PC端');
-      }</script><title>花豹科技</title><link rel=icon href=/static/img/icon.webp type=image/x-icon><link href=./static/css/app.6a022adfba1f16ff9305d234afe17ec5.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.4b24a968784f95ff4d16.js></script><script type=text/javascript src=./static/js/app.79fcf957d9101a97e1b3.js></script></body><script language=javascript>// 此处作用为禁止页面随鼠标放大缩小
+        location.href = location.href.split('/m/')[0]
+      }</script><title>花豹科技</title><link rel=icon href=./static/img/icon.webp type=image/x-icon><link rel=stylesheet href=./static/swiper-3.4.2.min.css><script src=./static/swiper-3.4.2.min.js></script><link href=/m/static/css/app.29d4875369a862f58ca8d6d74c222335.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/m/static/js/manifest.0d4d594a29ea2c7b113d.js></script><script type=text/javascript src=/m/static/js/vendor.f08920e8b0784567983b.js></script><script type=text/javascript src=/m/static/js/app.75ffde16b02253344bc9.js></script></body><script language=javascript>// 此处作用为禁止页面随鼠标放大缩小
     var scrollFunc=function(e){
       e=e || window.event;
       if(e.wheelDelta && event.ctrlKey){//IE/Opera/Chrome
